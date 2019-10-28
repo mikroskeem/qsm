@@ -1,0 +1,9 @@
+[Unit]
+Description=Minecraft server slice
+Before=slices.target
+
+[Slice]
+MemoryAccounting=true
+MemoryLimit=8G
+CPUAccounting=true
+CPUQuota=85%
